@@ -98,7 +98,7 @@ class Bill_App:
         cmail_txt=Entry(F1,width=20,textvariable=self.c_mail,font="arial 15",bd=7,relief=SUNKEN).grid(row=0,column=5,pady=5,padx=10)
         
         #bn_txt=Entry(F9,width=18,textvariable=self.search_bill,font="arial 10 bold",bd=7,relief=SUNKEN).grid(row=0,column=1,padx=30,pady=1)
-        send_btn=Button(F1,text="Send",command=self.check_mail,bg="cyan",bd=5,fg="black",width=8,font="arial 12 bold").grid(row=0,column=7)
+        send_btn=Button(F1,text="Send",bg="cyan",bd=5,fg="black",width=8,font="arial 12 bold").grid(row=0,column=7) #enter this line :- command=self.check_mail
 
         
         #----------------->>>>> COsmetic frame <<<----------------
@@ -616,32 +616,32 @@ class Bill_App:
         messagebox.showinfo("Sent",f"Bill No. :{self.bill_no.get()} Sent successfuly")
         
         
-    def send_email_bill(self):
-        get_3 = self.c_mail.get()
-        store_get_3 = get_3
+#     def send_email_bill(self):
+#         get_3 = self.c_mail.get()
+#         store_get_3 = get_3
         
-        op=messagebox.askyesno("Send bill","Do you want to Send the bill ?")
-        if op>0:
-            self.bill_data=self.txtarea.get('1.0',END)
+#         op=messagebox.askyesno("Send bill","Do you want to Send the bill ?")
+#         if op>0:
+#             self.bill_data=self.txtarea.get('1.0',END)
             #fp1=open("bills/"+str(self.bill_no.get())+".txt","w")
-            msg=self.bill_data
-        else:
-            return  
-        get_4 = msg
-        store_get_4 = get_4
+#             msg=self.bill_data
+#         else:
+#             return  
+#         get_4 = msg
+#         store_get_4 = get_4
     
         
-        try:
-            server = smtplib.SMTP('smtp.gmail.com', 587)
-            server.ehlo()
-            server.starttls()
-            server.login("shopcrp040@gmail.com","crpshop040@")
-            server.sendmail("shopcrp040@gmail.com",store_get_3,store_get_4)
-            statement_1 = "MAIL HAS BEEN SENT"
-            return statement_1
-        except:
-            statement_2 = "SOMETHING WENT WRONG"
-            return statement_2
+#         try:
+#             server = smtplib.SMTP('smtp.gmail.com', 587)
+#             server.ehlo()
+#             server.starttls()
+#             server.login("ENTER YOUR EMAIL","Password") # you should enter your email and password
+#             server.sendmail("shopcrp040@gmail.com",store_get_3,store_get_4)
+#             statement_1 = "MAIL HAS BEEN SENT"
+#             return statement_1
+#         except:
+#             statement_2 = "SOMETHING WENT WRONG"
+#             return statement_2*/
     def login_page(self):
         ad_id=self.admin_id.get()
         ad_pass=self.admin_pass.get()

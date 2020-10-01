@@ -1,5 +1,5 @@
 # Shop-Management-System--Python-GUI-Tkinter
-
+Graphic User Interface
 
 1. This GUI Application main Aim is to showing the python Tkinter GUI module
    uses,that how GUI code is working ,how a Frame/Label/Entry/Color......etc is working
@@ -36,4 +36,6 @@
 			(On admin area am not completly worked on backend Only Aim is to work on GUI module)
 	
 	i.) Exit :- Exit from the Application
+	
+	
 	

@@ -1,10 +1,11 @@
-# Shop-Management-System--Python-GUI-Tkinter
-## Graphic User Interface
+# Shop-Management-System Using Python-GUI-Tkinter Toolkit
 
-1. This GUI Application main Aim is to showing the python Tkinter GUI module
+* This GUI Application main Aim is to showing the python Tkinter GUI module
    uses,that how GUI code is working ,how a Frame/Label/Entry/Color......etc is working
 
-2. This Simple Python Tkinter Module project "Shop Management System" Contain verious feature:-
+## Features and Explain
+
+* This Simple Python Tkinter Module project "Shop Management System" Contain verious feature:-
 
 	a.) first enter customer details
 	b.) after that select item which one you want to buy and enter the quantity
@@ -38,5 +39,15 @@
 	
 	i.) Exit :- Exit from the Application
 
-	
+
+
+## Screenshot 
+<p align="center">
+  <img src="https://github.com/Lalit78716/Shop-Management-System--Python-GUI-Tkinter/blob/master/PY%20GUI%20PROJECT/Screenshot/Screenshot%20(183).png"  title="Customer Area">
+</p>
+<p align="center">
+  <img src="https://github.com/Lalit78716/Shop-Management-System--Python-GUI-Tkinter/blob/master/PY%20GUI%20PROJECT/Screenshot/Screenshot%20(182).png"  title="Admin Area">
+</p>
+
+
 	
